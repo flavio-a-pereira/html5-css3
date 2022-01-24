@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas 2</title>
+</head>
+<body>
+    <h1>Fotos com corte ("crop tool")</h1>
+    <h2>Neste exemplo peguei uma foto do google imagens, usei a ferramenta de corte do GIMP, e criei 3 opções de imagens para carregamento que diminuem conforme encolho a tela.</h2>
+    <picture>
+        <source media="(max-width:720px)" srcset="imagens/newcaledonia_p.jpg" type="image/jpg">
+        <source media="(max-width:950px)" srcset="imagens/newcaledonia_m.jpg" type="image/jpg">
+        <img src="imagens/newcaledonia_g.jpg" alt="o">
+    </picture>
+</body>
+</html>

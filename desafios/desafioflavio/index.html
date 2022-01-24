@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="fotos/Fasticon-Apples-Display-fun.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML5 e CSS3</title>
+</head>
+<body>
+    <header>
+        <p>HTML5</p>
+        <P>CSS3</P>
+        
+    </header>
+    <nav>
+        <a href="#">História</a>
+        <a href="#">Como funciona</a>
+        <a href="#">HTML e CSS</a>
+        <a href="#">Primeiros passos </a>
+        <a href="#">Caracteres e parágrafos</a>
+        <a href="#">Imagens</a>
+    </nav>
+    <main>
+        <section>
+            <article>
+                <p>Este é um projeto para exercitar a criação de um site usando as ferramentas de HTML5 e estilos em CSS3. Tentarei reproduzir as anotações que fiz do curso do Professor Gustavo Guanabara do site Estudonauta, cujo material de apoio foi baixado na sua <a href="https://github.com/estudonauta/html-css-old/tree/main/PDF-old" target="_blank">página de  Github</a>. Seu <a href="https://github.com/gustavoguanabara/gustavoguanabara.github.io" target="_blank">repositório do Github</a> possui mais áreas para serem consultadas. </p>
+           
+                <picture>
+                    <source media="(max-width:600px )" srcset="fotos/git1peq.jpg">
+                    <img src="fotos/git1.jpg" alt="arquivos antigos">
+                </picture>
+                
+                <picture>
+                    <source media="(max-width:600px )" srcset="fotos/git2peq.jpg">
+                    <img src="fotos/git2.jpg" alt="repositório">
+                </picture>
+            </article>
+
+            <article>
+                <h1>CAPÍTULO 1 – EVOLUÇÃO DA INTERNET</h1>
+                <P>
+                    A internet surgiu para suprir necessidades durante a guerra fria(1949). Para tentar se igualar aos avanços tecnológicos da URSS os EUA criaram a DARPA que era uma agencia voltada para estudos tecnológicos, com fins militares. Uma das tecnologias criadas nesta agencia foi a ARPANET, feita para unir bases militares no território americano e proteger seus dados. Ela uniu 4 pontos: um SDS Sigma 7 na UCLA (CA), um SDS 90 na Universidade de Stanford(CA), um IBM 370/75 no Centro de Matemática de Los Angeles(CA) e uma maquina militar DEC PDP-10 na Base Militar de Utah. 
+                </P>
+                <P>
+                    Como as maquinas tinham linguagens diferentes, foi criado um protocolo que elas pudessem interagir(net control protocol- NCP). Em 1972 já  ligava pontos em todos os EUA. Porem o NCP tinha a limitação de parar para que 2 máquinas interagissem, e já não conseguia dar agilidade para estas ligações. Daí surgiu o TCP, porém apresentava problemas de identificação dos pontos. Para resolver este problema foi criado o IP para identificação dos pontos. Surgia aí o TCP/IP. Como a rede aumentou muito os militares dividiram a ARPANET em 3 redes MILNET, NSFNET e comerciais, e passaram a controlar só a MILNET.
+                </P>
+                <P>
+                    As redes quiseram se manter conectadas, fazer uma interconnect networking, que virou internetworking e simplesmente internet. 
+                </P>
+                <P>
+                    A rede de cabos que liga a internet pode ser vista abaixo e foram retiradas do site <a href="https://www.submarinecablemap.com/" target="_blank">submarine cablemap</a>. Podemos obter mais informações sobre  esta rede no video do youtube <a href="https://www.youtube.com/watch?v=TNQsmPf24go" target="_blank">"How does the Internet Work"</a>.
+                </P>
+                <picture>
+                    <source media="(max-width:600px )" srcset="fotos/cabsub_peq.jpg">
+                    <img src="fotos/cabsub.jpg" alt="cabos submarinos">
+                </picture>
+                <p>
+                    Em 1993 foi criado um novo protocolo chamado hipertex protocol (HTTP)e a linguagem <strong>HTML (hiper text markup language)</strong>e o termo world wide web(www). O primeiro navegador criado para acessar HTTP foi o mosaic. A WWW é uma rede específica dentro da internet para englobar servidores HTTP.
+                </p>
+                    <picture>
+                        <source media="(max-width:600px )" srcset="fotos/esq_serv_peq.jpg">
+                        <img src="fotos/esq_serv.jpg" alt="tipos de servidores">
+                    </picture>
+            </article>
+<article>
+    <h1>CAPITULO2 – COMO FUNCIONA A INTERNET</h1>
+    <p>Os computadores, celulares, tablets,etc  são equipamentos eletrônicos e funcionam através de sinais elétricos em forma de uma <strong>onda quadrada</strong>. Estes sinais são apresentados com os algarismos 0 e 1 (sem sinal 0 e com sinal 1). Eles são conhecidos com dígitos binários(binary digit) ou bit. A porção mínima para se apresentar algum dado em computação precisa de 8 bits. Esta sequencia é chamada de 1 byte.</p>
+    <h2>A conexão com a internet</h2>
+    <p>Quando falamos em conexão com a internet, os computadores, celulares e demais aparelhos que pretendem se conectar são chamados de <strong>clientes</strong>. Tem esse nome por que querem acessar um serviço. Para fazermos este acesso precisamos de um aparelho chamado de modem. Este aparelho serve para converter o tipo de onda que sai dos computadores, celulares, etc  <strong>(onda quadrada)</strong> para serem entendidos pela linha de telefone, antena de celular etc, assim como converter o sinal que vem da internet<strong>(onda senoidal)</strong> para o formato entendido pelos aparelhos clientes.</p>
+    <p>Transformar a onda quadrada para senoidal chama-se modulação <strong>(mod)</strong> e o inverso demodulação <strong>(dem).</strong></p>
+    <p>Os <strong>conteúdos</strong> da internet estão armazenados em <strong>servidores</strong> específicos e ambos são identificados por um número chamado <strong>IP.</strong> O local que guarda a relação entre os números de IP e seus nomes é chamado de servidor<strong> DNS(sistema de nome de domínio)</strong>. Quando digitamos um nome de um site para acesso, primeiro ele o procura neste servidor DNS, retorna o número do IP para o modem, que manda esta mensagem para a internet, que retorna a informação pedida. </p>
+    <picture>
+        <source media="(max-width:600px)" srcset="fotos/servidor_p.png">
+        <img src="fotos/servidor.png" alt="acesso a servidor">
+    </picture>
+    <p>Situação 1 : Dados guardados no servidor</p>
+    <p>Qualquer cliente digita o nome do site, que vai busca-lo no servidor DNS, que retorna a informação do seu numero de IP , que por sua vez encaminha para o servidor de hospedagem, que retorna o conteúdo pedido para o cliente. O servidor de hospedagem é S e os clientes são A,B,C.</p>
+    <picture>
+        <source media="(max-width:600px)" srcset="fotos/situacao1_p.jpg">
+        <img src="fotos/situacao1.jpg" alt="situacao1">
+    </picture>
+    <p>Situação 2: Guardar os dados no PC</p>
+    <p>Dados guardados no PC só podem ser consultados pelo próprio usuário do computador, por que não possui um <strong>domínio</strong> cadastrado em um servidor DNS. Além disso, para consulta publica, é necessário que o site esteja arquivado em um servidor apropriado, chamado de  servidor de <strong>hospedagem.</strong></p>
+    <p>Para acessar um site, digitamos uma <strong>URL (localizador de recurso único)</strong>, por exemplo WWW.github.com/gustavoguanabara. O domínio é a 1ª parte, em github.com., o .com é chamado de <strong>TLD</strong> (domínio em alto nível) ou <strong>GTLD</strong> pois tem caráter genérico como .net, .io, .edu, .store, .gov. Existe também os domínios do tipo <strong>CCTLD</strong> (com códigos de países) como .br, .us,.uk,.ar.  O <strong>WWW</strong> é chamado de sub-domínio. O que vem depois da / é o <strong>caminho.</strong></p>
+    <ul>
+        <li>Exemplo : gustavoguanabara.github.io = URL</li>
+        <li>gustavoguanabara=sub-dominio</li>
+        <li>githib.io=domínio</li>
+        <li>.io=gtld </li>
+    </ul>
+</article>
+<article>
+    <h1>CAPÍTULO 3 – COMO FUNCIONA HTML E CSS</h1>
+
+    <p>HTML é uma linguagem de desenvolvimento (não é de programação) para criar sites. Significa <strong>Hypertext Markup Language</strong>. O hipertexto é uma área em que se pode clicar encima e ser enviado para outro conteúdo. Markup significa que é uma linguagem definida em marcas, não possuem variáveis, condições,vetores, objetos, etc. </p>
+    <p>CSS são folhas de estilo em cascata <strong>(Cascading Style Sheets)</strong>. Acrescenta características em cascata.</p>
+    <p>A linguagem HTML é focada em conteúdo como textos, imagens, vídeos, tabelas. Porém para tornar a informação mais agradável de ser consultada, precisamos usar atrativos visuais para reter os visitantes. Estes atrativos são as CSS. Por exemplo posição,tamanho,sombras e cor de imagens, textos sobrepostos sobre imagens .</p>
+    <p>P s: as interações de um site são feitos em javascript(esta é linguagem de programação).</p>
+
+    <h2>Conteúdo em HTML</h2>
+
+    <p>Para criar conteúdos em HTML usamos tags(<>) próprias.</p>
+    
+</article>
+        </section>
+
+    </main>
+</body>
+</html>
